@@ -1,10 +1,12 @@
-/**
- * @author Rudy
- *Given an array of integers, every element appears twice except for one. Find that single one.
- *Note:
- *Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
- *è§£é¢˜æ€è·¯ï¼šä¸¤ä¸ªç›¸åŒçš„æ•°å¼‚æˆ–ä¸º0ï¼Œç„¶ååˆ†ä¸ºæ­£è´Ÿä¸¤ç§æƒ…å†µè€ƒè™‘ï¼Œå°±å¾—åˆ°çº¿æ€§çš„è§£æ³•ã€‚
- */
+Given an array of integers, every element appears twice except for one. Find that single one.
+
+Note:
+
+Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+
+href:  https://oj.leetcode.com/problems/single-number/
+½âÌâË¼Â·£ºÁ½¸öÏàÍ¬µÄÊıÒì»òÎª0£¬È»ºó·ÖÎªÕı¸ºÁ½ÖÖÇé¿ö¿¼ÂÇ£¬¾ÍµÃµ½ÏßĞÔµÄ½â·¨¡£
+
 public class Solution {  
     public int singleNumber(int[] A) {  
         int zres=0;  
