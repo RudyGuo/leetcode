@@ -1,11 +1,10 @@
-Given an array of integers, every element appears twice except for one. Find that single one.
+// Given an array of integers, every element appears twice except for one. Find that single one.
 
-Note:
+// Note:
 
-Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+// Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
-href:  https://oj.leetcode.com/problems/single-number/
-解题思路：两个相同的数异或为0，然后分为正负两种情况考虑，就得到线性的解法。
+// 解题思路：两个相同的数异或为0，然后分为正负两种情况考虑，就得到线性的解法。
 
 public class Solution {  
     public int singleNumber(int[] A) {  
