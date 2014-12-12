@@ -23,7 +23,7 @@ public class Solution {
 			f[i][0] = in;
 		}
 		for(int j=1;j<T.length();j++){
-			for(int i=1;i<S.length();i++){
+			for(int i=j;i<S.length();i++){
 				if(S.charAt(i)==T.charAt(j)){
 					f[i][j] = f[i-1][j]+f[i-1][j-1];
 				}else{
